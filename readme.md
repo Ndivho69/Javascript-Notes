@@ -1,105 +1,70 @@
 
-|||||  Works from the back of the array |||||
+# Works from the back of the array 
 
-// Pop function
+# Pop function
 
-The pop function takes out the last element in the array,
-
-assigning a variable to array.pop(), shows us that popped out element
-
+> The pop function takes out the last element in the array, <br>
+> assigning a variable to array.pop(), shows us that popped out element 
 
 
-//Push function
+# Push function
 
-the push function adds a new element at the end of the array
-
-assigning a variable to array.push, gives the length of the new array
-
+> the push function adds a new element at the end of the array <br>
+> assigning a variable to array.push, gives the length of the new array 
 
 
+# Works from the front of the array
 
-|||| Works from the front of the array |||
+# THe shift function
 
-//THe shift function
-
-with the shift function you remove the first element in an array,
-
-asssigning a varibale to the array.shift() will return the element which was removed in the array
+> with the shift function you remove the first element in an array, <br>
+> asssigning a varibale to the array.shift() will return the element which was removed in the array
 
 
-//The unshift function
+# The unshift function
 
-the unshift function will add a new element at the front of the array
-
-assigning a variable to the array.unshift will give you the length of the new array;
-
+> the unshift function will add a new element at the front of the array <br>
+> assigning a variable to the array.unshift will give you the length of the new array; <br>
 
 
-
-
-// WHILE LOOP
- while(condition) {
-    // Code to run
-
-    final-expression
- }
-
-
+`WHILE LOOP  while(condition){ final-expression }`
 
  # DOM Manipulation and Events
 
-
-
-//Objects 
-To create an bject, the object needs to have a Key : Value
-
+# Objects 
+To create an bject, the object needs to have a `Key : Value`
 * Where key is a string, and value can be anything.
 * We can imagine an object as a cabinet with signed files. Every piece of data is stored in its file by the key. 
-* 
-* 
 * It’s easy to find a file by its name or add/remove a file.
 * to access an object the key is the indicator of where to look at exapmle if the object is
-* user = {
-   name : "Ndivho"
-}
-to access that i would have to user[name];
-or user.name
+* `user = {name : "Ndivho"}`
+* to access that i would have to `user[name]`;
+or `user.name`
 
 
 
 * In objects if the keys are listed in integers, they move in ascending order, visa-versa for strings
 
- Summary
+# Summary
 
 Objects are associative arrays with several special features.
-
 They store properties (key-value pairs), where:
-
     Property keys must be strings or symbols (usually strings).
     Values can be of any type.
-
 To access a property, we can use:
-
     The dot notation: obj.property.
     Square brackets notation obj["property"]. Square brackets allow taking the key from a variable, like obj[varWithKey].
-
 Additional operators:
-
     To delete a property: delete obj.prop.
     To check if a property with the given key exists: "key" in obj.
     To iterate over an object: for (let key in obj) loop.
-
 What we’ve studied in this chapter is called a “plain object”, or just Object.
-
 There are many other kinds of objects in JavaScript:
-
     Array to store ordered data collections,
     Date to store the information about the date and time,
     Error to store the information about an error.
     …And so on.
-
 They have their special features that we’ll study later. Sometimes people say something like “Array type” or “Date type”, but formally they are not types of their own, but belong to a single “object” data type. And they extend it in various ways.
-
 Objects in JavaScript are very powerful. Here we’ve just scratched the surface of a topic that is really huge. We’ll be closely working with objects and learning more about them in further parts of the tutorial.
 
 ## Returning own keys in an object
